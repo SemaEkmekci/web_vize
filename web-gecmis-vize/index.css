@@ -1,0 +1,39 @@
+hr{
+    width: 10%;
+    border: 1px solid gray;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text, .registerText{
+    text-align: center;
+    border: 2px solid red;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.login{
+    display: block;
+}
+.register{
+    display: none;
+}
+
+.registerText{
+    border: 2px solid green;
+}
+
+
+#sbmt{
+  width: 90%;  
+}
+
+.msg{
+    text-align: center;
+}

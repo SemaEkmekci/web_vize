@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21100011050</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <div class="btn">
+        <input type="radio" id="Log" value="log" name="secim" checked onchange="formKontrol(this)">
+        <label for="Log">Login</label>
+        <input type="radio" id="Reg" value="reg" name="secim" onchange="formKontrol(this)">
+        <label for="Reg">Register</label>
+    </div>
+
+    <hr>    <!-- Çizgi için -->
+     <div class="login"> 
+        <div class="text">
+            <label for="uname">Username:</label>
+            <input type="text" id="psw" name="uname"><br><br>
+
+            <label for="psw">Password:</label>
+            <input type="password" id="lname" name="lname"><br><br>
+
+            <input type="submit" value="Click to Login" id="sbmt" onclick="btn(this)">
+        </div>
+        <p id="messageLogin" class="msg"></p>
+    </div>
+
+
+    <div class="register">        
+        <div class="registerText text">
+            <input type="submit" value="Click to Register" id="sbmt" onclick="btn(this)">
+            <br> <br>
+            <label for="uname">Name:</label>
+            <input type="text" id="psw" name="uname"><br><br>
+            <label for="psw">Mail:</label>
+            <input type="email" id="email" name="email" > 
+        </div>
+        <p id="messageRegister" class="msg"></p>
+    </div>
+
+
+
+
+</body>
+</html>

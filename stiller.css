@@ -1,0 +1,45 @@
+.ana {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.loginDiv {
+    margin-top: 15px;
+    border: 1px red solid;
+    padding: 10px;
+}
+
+.formRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.buton {
+    width: 100%;
+}
+
+.registerDiv {
+    margin-top: 15px;
+    border: 1px green solid;
+    padding: 10px;
+}
+
+.bilgiBolumu {
+    padding-top: 15px;
+}

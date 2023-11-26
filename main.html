@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title>20010011003</title>
+    <link rel="stylesheet" type="text/css" href="stiller.css" />
+    <script src="fonksiyonlar.js"></script>
+</head>
+
+
+<body class="ana">
+    <div class="baslik">
+        <input type="radio" id="formTipiLogin" value="0" checked />
+        <label for="formTipiLogin">Login</label>
+        <input type="radio" id="formTipiRegister" value="1" />
+        <label for="formTipiRegister">Register</label> <hr>
+    </div>  
+
+    <div class="loginDiv" id="loginDiv">
+        <div class="formRow">
+            <label for="loginUsername">Username: </label>
+            <input type="text" value="" id="loginUsername" />
+        </div>
+        <div class="formRow">
+            <label for="loginPassword">Password: </label>
+            <input type="password" value="" id="loginPassword" />
+        </div>
+        <button type="submit" class="buton" onclick="formKontrol();">
+            Click to Login
+        </button>
+    </div>
+    <div class="registerDiv" id="registerDiv" style="display:none;">
+        <button type="submit" class="buton" onclick="formKontrol()">
+            Click to Register
+        </button>
+        <div class="formRow">
+            <label for="register_name">Name: </label>
+            <input type="text" value="" id="registerName" />
+        </div>
+        <div class="formRow">
+            <label for="register_mail">Mail: </label>
+            <input type="text" value="" id="registerMail" />
+        </div>
+    </div>
+
+    <div class="bilgiBolumu" id="bilgiBolumu">
+       Login Or Register <hr>
+    </div>
+</body>
+</html>
